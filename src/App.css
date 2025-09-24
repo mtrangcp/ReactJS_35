@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+}
+
+/* bai 03 */
+.bg-light {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.bg-light button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.bg-dark button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.bg {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+}
+
+/* bai 04 */
+.change-mode {
+  width: 50%;
+  padding: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.change-mode button {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.change-mode button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 104, 104);
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+}
+
+.display-column {
+  flex-direction: column;
+}
+
+.display-row {
+  flex-direction: row;
+}
+
+.display-row .item {
+  width: calc((100% - 30px) / 4);
+}
+
+.list .item {
+  background-color: rgb(255, 92, 92);
+  border: none;
+
+  text-align: center;
+  padding: 10px;
+}
+
+/* bai 05 */
+
+.menu {
+  background-color: #041433;
+  width: fit-content;
+  color: white;
+
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menu .item-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.menu .item-menu .format {
+  font-size: 20px;
+}
+
+.menu .item-menu span {
+  font-size: 17px;
+}
+
+.collapse:hover {
+  cursor: pointer;
+  opacity: 0.6s;
+}
+
+/* b6 */
+.lang {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  width: fit-content;
+}
+
+/* b7 */
+
+.list-favorite {
+  width: fit-content;
+  border: 1px solid gray;
+  padding: 5px 15px;
+}
+
+.list-favorite h2 {
+  margin-bottom: 20px;
+}
+
+.list-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-favorite .item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 7px;
+}
+
+.border-btm {
+  border-bottom: 1px solid black;
+}
+
+.love {
+  color: red;
+}
