@@ -6,6 +6,7 @@ import changeModeSlice from "../features/changeMode/changeModeSlice";
 import changeMenuSlice from "../features/changeMenu/changeMenu";
 import ChangeLangSlice from "../features/changeLanguage/changeLang";
 import favoriteUser from "../features/favorite/favoriteSlice";
+import todoSlice from "../features/todo/todoSlice";
 
 export const store = configureStore({
   reducer: {
@@ -16,6 +17,7 @@ export const store = configureStore({
     changeMenu: changeMenuSlice,
     changeLang: ChangeLangSlice,
     favorite: favoriteUser,
+    todo: todoSlice,
   },
 });
 

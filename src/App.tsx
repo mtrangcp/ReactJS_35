@@ -1,5 +1,5 @@
 import "./App.css";
-import FavoriteList from "./features/favorite/FavoriteList";
+import Todo from "./features/todo/Todo";
 
 // B1: Xay dung giao dien
 // B2: Xay dung store
@@ -11,7 +11,7 @@ import FavoriteList from "./features/favorite/FavoriteList";
 function App() {
   return (
     <>
-      <FavoriteList />
+      <Todo />
     </>
   );
 }

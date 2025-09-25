@@ -154,3 +154,20 @@ button {
 .love {
   color: red;
 }
+
+/* todo */
+
+.todo input {
+  margin-right: 30px;
+}
+
+.todo button,
+li button {
+  padding: 2px 7px;
+}
+li {
+  margin: 15px 0;
+}
+li button {
+  margin-left: 30px;
+}
